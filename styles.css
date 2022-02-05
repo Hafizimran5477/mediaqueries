@@ -1,0 +1,166 @@
+/* .container{
+    height: 100vh   ;
+    width: 100%;
+    background-color: blue;
+}
+
+@media screen and (max-width: 1100px){
+    .container{
+        background-color: blueviolet;
+    }
+} */
+
+*{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(116, 230, 10);
+    border: 2px solid rgb(122, 101, 101);
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    width: 70%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    width: 30%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+
+}
+
+.menu ul li{
+    margin: 10px;
+
+}
+
+section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+.main-content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(106, 80, 255);
+}
+
+.side-bar{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(116, 77, 84);
+}
+
+.side-bar ul{
+    list-style: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 255, 255);
+    align-items: center;
+}
+
+@media screen and (max-width:1182px) {
+    .logo{
+        width: 70%;
+    }
+    .menu{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width:586px) {
+    .logo{
+        /* width: 70%; */
+        font-size: 1.4rem;
+    }
+    .menu{
+        width: 30%;
+    }  
+}
+
+@media screen and (max-width:375px) {
+    .logo{
+        font-size: 1rem;
+    }
+    .menu{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .section{
+        height: 324px;
+        display: block;
+    }
+    
+    .main-content{
+        width: 100%;
+    }
+
+    .side-bar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
